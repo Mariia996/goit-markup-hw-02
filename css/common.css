@@ -1,5 +1,5 @@
 body {
-    background-color: var(--primary-bg-color);
+    background-color: var(--primary-white-color);
     color: var(--text-main-color);
 }
 
@@ -22,7 +22,6 @@ body {
 /* белый #FFFFFF */
 /*белый с прозрачностью rgba(255, 255, 255, 0.6) */
 /* цвет фона шапки и футера #2F303A */
-
 /* вторичный цвет фона #F5F4FA */
 
 ul {
@@ -49,6 +48,10 @@ ul {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
     color: var(--accent-color);
 }
 
