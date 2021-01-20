@@ -38,3 +38,18 @@
 }
 
 /* Стили для portfolio.html*/
+
+.button {
+    color: var(--title-text-color);
+    background-color: var(--primary-bg-button);
+}
+
+.button:hover,
+.button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.work-list .title {
+    color: var(--title-text-color);
+}
