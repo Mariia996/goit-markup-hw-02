@@ -38,7 +38,7 @@ ul {
     color: #2196F3;
 }
 
-.logo-studio {
+.logo-header {
     color: #212121;
 }
 
@@ -58,4 +58,22 @@ ul {
 .site-contacts .link-contacts:hover,
 .site-contacts .link-contacts:focus {
     color: var(--accent-color);
+}
+
+/* Footer */
+
+.logo-footer {
+    color: #FFFFFF;
+}
+
+.footer-page {
+    background-color: var(--secondary-bg-color);
+}
+
+.address-container .text {
+    color: var(--primary-white-color);
+}
+
+.address-container .link {
+    color: var(--secondary-white-color);
 }
