@@ -1,0 +1,40 @@
+/* Стили для index.html*/
+
+/* Hero */
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero .hero-title {
+    color: #FFFFFF;
+}
+
+.hero-button {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+/* For all sections */
+
+.section .section-title {
+    color: var(--title-text-color)
+}
+
+/* Features */
+
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+/* Our team */
+
+.team .title {
+    color: var(--title-text-color);
+}
+
+.team-section {
+    background-color: #F5F4FA;
+}
+
+/* Стили для portfolio.html*/
