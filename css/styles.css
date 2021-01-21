@@ -27,9 +27,23 @@
     color: var(--title-text-color);
 }
 
+.feature-list {
+    list-style: none;
+}
+
+/* Work */
+
+.work-list {
+    list-style: none;
+}
+
 /* Our team */
 
-.team .title {
+.team-list {
+    list-style: none;
+}
+
+.team-list .title {
     color: var(--title-text-color);
 }
 
@@ -38,6 +52,10 @@
 }
 
 /* Стили для portfolio.html*/
+
+.filter-list {
+    list-style: none;
+}
 
 .button {
     color: var(--title-text-color);
@@ -50,6 +68,10 @@
     background-color: var(--accent-color);
 }
 
-.work-list .title {
+.example-list {
+    list-style: none;
+}
+
+.example-list .title {
     color: var(--title-text-color);
 }
