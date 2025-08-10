@@ -1,0 +1,160 @@
+/* Common styles */
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--slate-color);
+
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.32px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+:root {
+  --iris-color: #4d5ae5;
+  --ocean-color: #404bbf;
+  --navy-blue-color: #2e2f42;
+  --primary-bg-color: #ffffff;
+  --white-color: #ffffff;
+  --green-color: #31d0aa;
+  --slate-color: #434455;
+  --light-slate-color: #8e8f99;
+  --cornflower-color: #e7e9fc;
+  --cloud-color: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey-color: rgba(46, 47, 66, 0.7);
+  --dairy-color: rgba(46, 47, 66, 0.4);
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+  font-style: normal;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: var(--navy-blue-color);
+}
+
+p {
+  margin: 0;
+}
+
+/* index.html styles */
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+/* Header */
+
+.logo {
+  font-family: Raleway, sans-serif;
+  color: var(--navy-blue-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo-text {
+  color: var(--iris-color);
+}
+
+.nav-link {
+  color: var(--navy-blue-color);
+  font-weight: 500;
+  transition: color 250ms linear;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--ocean-color);
+}
+
+.address-link {
+  transition: color 250ms linear;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--ocean-color);
+}
+
+/* Hero section */
+
+.hero {
+  background-color: var(--navy-blue-color);
+}
+
+.hero-title {
+  font-family: inherit;
+  color: var(--white-color);
+}
+
+.hero-button {
+  background-color: var(--iris-color);
+  color: var(--white-color);
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms linear;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--ocean-color);
+}
+
+/* Peculiarities section */
+
+.peculiarities-list li h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+/* Our Team section */
+
+.team {
+  background-color: var(--cloud-color);
+}
+
+.team-list li h3 {
+  text-align: center;
+}
+
+.team-list li p {
+  text-align: center;
+}
