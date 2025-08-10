@@ -30,7 +30,6 @@ body {
 a {
   text-decoration: none;
   color: currentColor;
-  font-style: normal;
 }
 
 ul,
@@ -65,6 +64,7 @@ p {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .card-title {
@@ -78,7 +78,7 @@ p {
 
 .logo {
   font-family: Raleway, sans-serif;
-  color: var(--navy-blue-color);
+  color: var(--iris-color);
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -87,18 +87,23 @@ p {
 }
 
 .logo-text {
-  color: var(--iris-color);
+  color: var(--navy-blue-color);
 }
 
 .nav-link {
   color: var(--navy-blue-color);
   font-weight: 500;
   transition: color 250ms linear;
+  font-style: normal;
 }
 
 .nav-link:hover,
 .nav-link:focus {
   color: var(--ocean-color);
+}
+
+.contacts {
+  font-style: normal;
 }
 
 .address-link {
@@ -117,8 +122,11 @@ p {
 }
 
 .hero-title {
-  font-family: inherit;
+  font-size: 56px;
   color: var(--white-color);
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .hero-button {
@@ -127,7 +135,8 @@ p {
   font-weight: 500;
   border: none;
   border-radius: 4px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   transition: background-color 250ms linear;
 }
 
@@ -138,11 +147,15 @@ p {
 
 /* Peculiarities section */
 
-.peculiarities-list li h3 {
+.peculiarities-card-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+}
+
+.peculiarities-card-text {
+  letter-spacing: 0.02em;
 }
 
 /* Our Team section */
@@ -151,10 +164,34 @@ p {
   background-color: var(--cloud-color);
 }
 
-.team-list li h3 {
+.team-list-item {
+  background-color: var(--white-color);
+}
+
+.team-list-item h3 {
   text-align: center;
 }
 
-.team-list li p {
+.team-card-text {
+  font-size: 16px;
   text-align: center;
+}
+
+/* Portfolio section */
+
+.portfolio-card-text {
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--navy-blue-color);
+}
+
+.secondary-logo {
+  color: var(--cloud-color);
+}
+
+.footer-text {
+  color: var(--cloud-color);
 }
